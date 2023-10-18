@@ -205,8 +205,10 @@ body {
     right: 10px;
     width: 80%;
     height: 100%;
-    
-
+  }
+  .design-words{
+    position: relative;
+    right: 10px;
   }
 
 }

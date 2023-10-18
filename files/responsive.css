@@ -210,6 +210,10 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .about-image img{
+    position: relative;
+    left: 20px;
+  }
   .design-words{
     position: relative;
     right: 10px;

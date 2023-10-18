@@ -18,6 +18,10 @@
     
 
   }
+  .about-words{
+    border: none;
+    left: 20px
+  }
   .about-content {
       border: 1px dotted grey;
       display: flex;

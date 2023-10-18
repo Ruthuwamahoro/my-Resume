@@ -234,7 +234,7 @@ body {
     
   }
   .counter {
-    padding-right: 20px;
+    padding-right: 205;
   }
  
   .about-words h1 {
@@ -244,11 +244,11 @@ body {
   }
   .about-me {
     position: relative;
-    bottom: 80%;
+    bottom: 60%;
   }
   .about-image img{
     position: relative;
-    top:60%
+    top:90%
   }
   .new_container {
     display: block;

@@ -22,6 +22,9 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+
+
 //To update the active element in the navigation bar 
 //based on the current page while scrolling
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -92,5 +95,8 @@ const typingTexts = ["Full-stack developer", "Graphic designer"];
         }
 
         type();
+
+
+        
 
 

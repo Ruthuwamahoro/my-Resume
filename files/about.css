@@ -5,9 +5,16 @@
   }
   
   #about {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     min-height: 100vh;
     width: 100%;
+    background-color: #e8e8e8;
+    
+    display: grid;
+    place-items: center;
+    padding: 60px;
+    color: black;
+    
+
   }
   .about-content {
       display: flex;
@@ -20,14 +27,15 @@
       
     }
     
+    
     .about-image img {
-      margin-top: 40px;
-      width:500px;
-      height: 666.66px;
-      box-shadow: 0 0 10px #4f5359;
-    }
+     position: relative;
+     right: 50px; 
+    } 
     
     .about-words {
+      position: relative;
+      right: 190px;
       flex: 1;
       height: 480px;
       margin-top: 40px;

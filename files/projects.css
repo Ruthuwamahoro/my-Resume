@@ -11,6 +11,8 @@
     font-family: 'Times New Roman', Times, serif;
     display: grid;
     place-items: center;
+    padding: 60px;
+    color: black;
   }
 
   #projects .row-pro {
@@ -45,9 +47,13 @@
   }
 
   #projects .column-pro {
-    width: 100%;
+    /* width: 100%;
     padding: 0 1em 1em 1em;
-    text-align: center;
+    text-align: center; */
+    width: 33.33%; /* Show 3 columns per row for wider screens */
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
   #projects .card .card-img {
@@ -77,10 +83,10 @@
 
 
   .card-body .card-title {
-    text-transform: uppercase;
+    
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: rgb(186, 132, 45);
     text-align: center;
   }
 
@@ -96,7 +102,7 @@
     font-size: 16px;
     line-height: 1.4;
     margin: 30px 0;
-    color: #ffffff;
+    color: white;
   }
 
   .card-body .card-btn {
@@ -115,3 +121,83 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
     border: 2px solid #ffffff;
   }
+  .row-pro1 {
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column-pro {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  .carousel-dots {
+    text-align: center;
+  }
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #888;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .dot.active {
+    background-color: #333;
+  }
+  .slide {
+    flex: 0 0 33.33%; /* 100% / number of slides */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  /* You can style the active dot differently */
+  .dot.active {
+    background-color: #333;
+  }
+  .card {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #4f5359;
+    margin: 10px;
+    text-align: center;
+  }
+  .card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  .card-sub-title {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .card-info {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  .card-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  

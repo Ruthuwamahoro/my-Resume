@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="my best personal website as kayode" />
+    <meta name="description" content="my best personal website as ruth" />
     <meta name="keywords" content="personal, portfolio, website, for Tecks" />
-    <meta name="author" content="erneste" />
+    <meta name="author" content="ruth" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ruth Uwamahoro portfolio website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./files/style.css" />
     <link rel="stylesheet" href="./files/about.css" />
     <link rel="stylesheet" href="./files/resume.css" />
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="./files/blog.css" />
     <link rel="stylesheet" href="./files/contact.css" />
     <link rel="stylesheet" href="./files/responsive.css" />
+    <link rel="stylesheet" href="./files/skills.css" />
     <script
       src="https://kit.fontawesome.com/744fa18e3f.js"
       crossorigin="anonymous"
@@ -36,11 +38,17 @@
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#resume">Resume</a></li>
+        <li><a href="#skill">Skills</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#blog">My Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="menu">
+        <div class="menu-button">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+      </div>
     </nav>
 
     <!--this is the landing page section-->
@@ -49,6 +57,9 @@
         <h1>Hello! It's Me</h1>
         <h2>Ruth Uwamahoro</h2>
         <h3>And I am a <strong id="typing-text">UI/UX-DESIGNER</strong></h3>
+        <div class="image-responsive">
+          <img src="./images/me.jpg" alt="my image profile not displaying" />
+        </div>
         <p>
           a versatile professional with a passion for full-stack development and
           graphic I thrive at the intersection of creativity and technology,
@@ -79,7 +90,7 @@
       <div class="about-content">
         <div class="about-image">
           <img
-            src="./images/about-image.jpg"
+            src="./images/about-image.png"
             alt="about image not displaying"
           />
         </div>
@@ -120,24 +131,27 @@
       </div>
 
       <div class="my-fovourite-tech">
+        <h1>My favourite Tech</h1>
         <span>
-          <a href="#"><i class="fa-brands fa-microsoft"></i></a>
+          <a href="#" class="icon-link"
+            ><i class="fa-brands fa-microsoft"></i
+          ></a>
           <h3>Microsoft</h3>
         </span>
         <span>
-          <a href="#"><i class="fa-brands fa-android"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-android"></i></a>
           <h3>android</h3>
         </span>
         <span>
-          <a href="#"><i class="fa-brands fa-java"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-java"></i></a>
           <h3>Java</h3>
         </span>
         <span>
-          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-google"></i></a>
           <h3>Google</h3>
         </span>
         <span>
-          <a href="#"><i class="fa-brands fa-figma"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-figma"></i></a>
           <h3>Figma</h3>
         </span>
       </div>
@@ -235,6 +249,62 @@
           </section>
           <!-- The end of the experiences section-->
         </main>
+      </div>
+    </section>
+    <!-- section for skills -->
+    <section id="skill">
+      <h2>My skills</h2>
+      <div class="skill" data-level="7">
+        <span class="skill-name">python</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="python-level">90%</div>
+        </div>
+      </div>
+      <div class="skill" data-level="6">
+        <span class="skill-name">Flask</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="flask-level" data-level="100">90%</div>
+        </div>
+      </div>
+      <div class="skill" data-level="5">
+        <span class="skill-name">Django</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="django-level" style="color: black">
+            70%
+          </div>
+        </div>
+      </div>
+      <div class="skill" data-level="4">
+        <span class="skill-name">Javascript</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="javascript-level" style="color: black">
+            75%
+          </div>
+        </div>
+      </div>
+      <div class="skill" data-level="3">
+        <span class="skill-name">React</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="react-level" style="color: black">
+            85%
+          </div>
+        </div>
+      </div>
+      <div class="skill" data-level="2">
+        <span class="skill-name">Node.js</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="node-level" style="color: black">
+            85%
+          </div>
+        </div>
+      </div>
+      <div class="skill" data-level="1">
+        <span class="skill-name">Ruby</span>
+        <div class="skill-bar">
+          <div class="skill-level" id="ruby-level" style="color: black">
+            70%
+          </div>
+        </div>
       </div>
     </section>
 
@@ -342,17 +412,74 @@
           <div class="card">
             <img
               class="card-img"
-              src="./images/card-image1.png"
+              src="./images/weather-image.png"
               alt="projects-image"
             />
             <div class="card-body">
-              <h3 class="card-title">Project Name</h3>
+              <h3 class="card-title">WeatherWise</h3>
               <h5 class="card-sub-title">About-Project</h5>
               <p class="card-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                voluptate
+                This projects is related to the weather.It provides the basic
+                information on the current time and it provides good and
+                accurate info based on updates.It uses javascript and API.
               </p>
-              <button class="card-btn">Live Demo</button>
+              <button class="card-btn" id="demoButton">Live Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-pro">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./images/digital-clock.webp"
+              alt="projects-image"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Digital clock</h3>
+              <h5 class="card-sub-title">About-Project</h5>
+              <p class="card-info">
+                This projects uses javascript to display current time in
+                Hours,Minutes and seconds by making good looking wallpaper.
+              </p>
+              <button class="card-btn" id="demoDigital">Live Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-pro">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./images/counter.webp"
+              alt="projects-image"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Counter</h3>
+              <h5 class="card-sub-title">About-Project</h5>
+              <p class="card-info">
+                This project works somehow like game because it counts a number
+                according to where you start
+              </p>
+              <button class="card-btn" id="counter">Live Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-pro">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./images/calcrulator.jpg"
+              alt="projects-image"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Calculator</h3>
+              <h5 class="card-sub-title">About-Project</h5>
+              <p class="card-info">
+                This is the super useful calculator that has all math operations
+              </p>
+              <button class="card-btn" id="calculator">Live Demo</button>
             </div>
           </div>
         </div>
@@ -394,204 +521,14 @@
             </div>
           </div>
         </div>
-
-        <div class="column-pro">
-          <div class="card">
-            <img
-              class="card-img"
-              src="./images/card-image1.png"
-              alt="projects-image"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Project Name</h3>
-              <h5 class="card-sub-title">About-Project</h5>
-              <p class="card-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                voluptate
-              </p>
-              <button class="card-btn">Live Demo</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="column-pro">
-          <div class="card">
-            <img
-              class="card-img"
-              src="./images/card-image1.png"
-              alt="projects-image"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Project Name</h3>
-              <h5 class="card-sub-title">About-Project</h5>
-              <p class="card-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                voluptate
-              </p>
-              <button class="card-btn">Live Demo</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="column-pro">
-          <div class="card">
-            <img
-              class="card-img"
-              src="./images/card-image1.png"
-              alt="projects-image"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Project Name</h3>
-              <h5 class="card-sub-title">About-Project</h5>
-              <p class="card-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                voluptate
-              </p>
-              <button class="card-btn">Live Demo</button>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
       <div id="next-page"></div>
     </section>
-
-    <!--this is the blog section-->
-    <section id="blog">
-      <div class="section-content blog">
-        <div class="title">
-          <h2>blog & news</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img-sections">
-              <img src="./images/img1.jpg" />
-            </div>
-            <div class="article">
-              <h4>Title one</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="blog-view">
-              <a href="" class="button">Read More</a>
-            </div>
-            <div class="posted-date">
-              <p>Posted on 20/03/2023</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!--this is the contact section-->
     <section id="contact">
       <div class="container">
@@ -675,7 +612,7 @@
     <footer id="footer">
       <p>Copyright © Ruth Uwamahoro portfolio Project 2023</p>
     </footer>
-
+    <script src="./files/script.js"></script>
     <script src="./files/main.js"></script>
     <script src="./files/about.js"></script>
     <script src="./files/resume.js"></script>
@@ -683,6 +620,7 @@
     <script src="./files/projects.js"></script>
     <script src="./files/blog.js"></script>
     <script src="./files/contact.js"></script>
+    <script src="./files/skills.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

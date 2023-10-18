@@ -1,0 +1,80 @@
+.skill {
+    width: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0px;
+    /* border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+
+.skill-name {
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    height: 0px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.skill-level {
+    text-align: right;
+    line-height: 40%;
+    color: #fff;
+    border-radius: 60px;
+    width: 0;
+    background-color: #3498db;
+    animation: fillWidth 2s ease-in forwards;
+}
+
+@keyframes fillWidth {
+    from {
+        width: 0;
+    }
+    to {
+        width: calc(var(--level) *1%);
+    }
+} 
+
+
+
+
+
+
+
+
+[data-level="7"] .skill-level {
+    background-color: #3498db; 
+    width: 90%;
+    
+}
+
+[data-level="6"] .skill-level {
+    background-color:red; 
+    width: 90%; 
+}
+[data-level="5"] .skill-level {
+    background-color: green;
+    width: 70%; 
+}
+[data-level="4"] .skill-level {
+    background-color: purple; 
+    width: 75%; 
+}
+[data-level="3"] .skill-level {
+    background-color: yellow;
+    width: 85%; 
+}
+[data-level="2"] .skill-level {
+    background-color: indigo; 
+    width: 85%; 
+}
+[data-level="1"] .skill-level {
+    background-color: orange;
+    width: 70%; 
+}
+
+
+      
+ 

@@ -12,3 +12,4 @@ const targetNumber = 100; // The target number you want to count up to
   }
 
   countUp();
+

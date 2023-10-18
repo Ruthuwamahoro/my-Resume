@@ -20,7 +20,8 @@
   }
   .about-words{
     border: none;
-    left: 20px
+    left: 20px;
+    margin-bottom: 20px;
   }
   .about-content {
       border: 1px dotted grey;

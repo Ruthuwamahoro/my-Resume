@@ -204,6 +204,9 @@ body {
     min-height: 100vh;
     width: 100%;
     background-color: #e8e8e8;
+    
+  }
+  .about-content{
     padding-left: 10px;
     padding-right: 10px;
   }

@@ -212,11 +212,14 @@ body {
   }
   .about-image img{
     position: relative;
-    left: 20px;
+    left: 30px;
   }
   .design-words{
     position: relative;
     right: 50px;
+  }
+  .counter {
+    padding-right: 20px;
   }
 
 }

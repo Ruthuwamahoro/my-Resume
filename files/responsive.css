@@ -219,6 +219,7 @@ body {
   .design-words{
     position: relative;
     right: 50px;
+    bottom: 50px;
     
   }
   .counter {
@@ -230,7 +231,7 @@ body {
   }
   .about-words h1 {
     text-align: center;
-    bottom: 100px;
+    bottom: 140px;
   }
 
 }

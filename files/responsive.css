@@ -276,13 +276,18 @@ body {
     right: 20px;
     color: blue;
   }
+  .about-me {
+    position: relative;
+    margin-top: 20%;
+  }
   .about-content {
-    border: 1px dotted grey;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
+    left: 10px
   }
 
 }

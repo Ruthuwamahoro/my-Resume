@@ -242,10 +242,10 @@ body {
     text-align: center;
     bottom: 40%;
   }
-  .about-me {
+  /* .about-me {
     position: relative;
     bottom: 20%;
-  }
+  } */
   .about-image img{
     position: relative;
     top:90%

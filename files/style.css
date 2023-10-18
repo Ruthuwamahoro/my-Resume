@@ -1,19 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
-  
-  body {
+body {
     width: 100%;
     min-height: 100vh;
   }
   
-  .navBar {
-    /* background-image: url("/my-portfolio/images/nav-background.jpg"); */
-
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+.navBar {
     background-color: #0b0334;
     
     display: flex;
@@ -252,7 +242,7 @@
   
   #footer {
       background-color: #1f2937;
-      height: 300px;
+      height: 100px;
       width: 100%;
   }
   

@@ -4,7 +4,7 @@ document.getElementById("demoButton").onclick = function() {
 document.getElementById("demoDigital").onclick = function() {
     window.location.href = "project2/index2.html";
 };
-document.getElementById("counter").onclick = function() {
+document.getElementById("counterm").onclick = function() {
     window.location.href = "project3/index3.html";
 };
 document.getElementById("calculator").onclick = function() {

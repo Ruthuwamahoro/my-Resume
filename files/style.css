@@ -123,6 +123,15 @@
     font-size: 30px;
     margin-bottom: 5px;
   }
+  .make-design {
+    width: 200px;
+    height: 150px;
+    color: black;
+    background-color: white;
+    
+
+
+  }
   
   .words-section h3 {
     font-size: 18px;
@@ -143,7 +152,48 @@
     margin-bottom: 30px;
     font-style: italic;
   }
-  
+  .new_container {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(136, 212, 210);
+    padding-bottom: 20px;
+    background-color:  #e8e8e8;
+    
+  }
+  .graphic {
+    border-bottom: 3px solid blue;
+  }
+  .web-design {
+    border-bottom: 3px solid red;
+  }
+  .Front-end {
+    border-bottom:3px solid purple;
+  }
+  .back-end{
+    border-bottom:3px solid cadetblue;
+  }
+  .graphic span , .web-design span , .Front-end span, .back-end span {
+      display: block;
+      font-size: 20px;
+      line-height: 80px;
+      padding-left: 20px;
+  }
+  .graphic span:first-child {
+      font-size: 30px;
+      color: blue;
+  }
+  .web-design span:first-child{
+      font-size: 30px;
+      color: red;
+  }
+  .Front-end span:first-child{
+      font-size: 30px;
+      color: purple;
+  }
+  .back-end span:first-child{
+      font-size: 30px;
+      color:cadetblue;
+  }
   .icons-container {
     margin-bottom: 20px;
   }

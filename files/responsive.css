@@ -211,29 +211,29 @@ body {
     margin: auto;
     padding-right: 20px;
   }
-  .about-image img{
-    position: relative;
+  /* .about-image img{
+    position: relative; */
     /* left: 30px; */
-    top: 80px
-  }
-  .design-words{
+    /* top: 80px
+  } */
+  /* .design-words{
     position: relative;
     right: 50px;
     bottom: 100px;
     
-  }
+  } */
   .counter {
     padding-right: 20px;
   }
-  .addresses {
+  /* .addresses {
     position: relative;
     width: 60%;
-  }
-  .about-words h1 {
+  } */
+  /* .about-words h1 {
     position: relative;
     text-align: center;
     bottom: 50%;
-  }
+  } */
 
 }
   

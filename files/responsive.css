@@ -280,7 +280,7 @@ body {
     position: relative;
     margin-top: 20%;
   }
-  .about-content {
+  #about {
     position: relative;
     display: flex;
     justify-content: center;

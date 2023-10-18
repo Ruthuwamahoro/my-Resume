@@ -218,6 +218,7 @@ body {
   .design-words{
     position: relative;
     right: 50px;
+    bottom: 60px;
   }
   .counter {
     padding-right: 20px;

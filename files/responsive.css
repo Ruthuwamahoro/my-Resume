@@ -201,16 +201,16 @@ body {
     width: 100%;
     margin-right: 20px 
   }
-  #about {
+  /* #about {
     min-height: 100vh;
     width: 100%;
     background-color: #e8e8e8;
     
-  }
-  .about-content{
+  } */
+  /* .about-content{
     margin: auto;
     padding-right: 20px;
-  }
+  } */
   /* .about-image img{
     position: relative; */
     /* left: 30px; */

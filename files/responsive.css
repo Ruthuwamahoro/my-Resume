@@ -174,17 +174,28 @@ body {
   .dot{
     display: none;
   }
+
+  .page-container .row{
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
   
   
 }
 @media(max-width: 480px){
   body {
     font-size: 14px;
+    margin: auto;
   }
   #home{
     width: 100%;
     
   }
+  #resume {
+    display: block;
+  }
+
 }
   
 

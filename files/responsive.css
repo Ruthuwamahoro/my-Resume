@@ -190,6 +190,7 @@ body {
   body {
     font-size: 14px;
     margin: auto;
+    width: 100%;
   }
   #home{
     width: 100%;
@@ -218,7 +219,7 @@ body {
   .design-words{
     position: relative;
     right: 50px;
-    bottom: 90px;
+    
   }
   .counter {
     padding-right: 20px;
@@ -229,7 +230,7 @@ body {
   }
   .about-words h1 {
     text-align: center;
-    bottom: 70px;
+    bottom: 100px;
   }
 
 }

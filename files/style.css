@@ -96,7 +96,7 @@
   #home {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #333;
     background-image: url("/my-portfolio/images/main-backg-image.jpg");

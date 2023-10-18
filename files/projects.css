@@ -46,15 +46,7 @@
     position: relative;
   }
 
-  #projects .column-pro {
-    /* width: 100%;
-    padding: 0 1em 1em 1em;
-    text-align: center; */
-    width: 33.33%; /* Show 3 columns per row for wider screens */
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
-}
+  
 
   #projects .card .card-img {
     width: 100%;
@@ -86,10 +78,13 @@
     
     font-size: 24px;
     font-weight: bold;
-    color: rgb(186, 132, 45);
+    color: rgb(185, 14, 198);
     text-align: center;
   }
-
+  .card-body .card-title:first-child {
+    color: rgb(243, 90, 90);
+    font-weight: 900;
+  }
   .card-body .card-sub-title {
     text-transform: capitalize;
     font-size: 12px;

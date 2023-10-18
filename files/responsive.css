@@ -143,23 +143,33 @@ body {
       height: 100%;
 
     }
+  #projects {
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 0%;
+  }
     
-    #projects .row-pro1 {
+  #projects .row-pro1 {
       
       display: block;
       
       width: 100%;
   }
-  #projects .column-pro .card{
-    width: 100%;
-    height: 100%;
-    overflow:hidden;
-    border-radius: 20px;
-    border: 8px solid #ffffff;
-    position: relative;
-    margin-bottom: 1px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
 
+  #projects .column-pro{
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+
+  }
+  #projects .column-pro .card {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #projects.row-pro.section-head, p {
+    margin: auto;
   }
   .dot{
     display: none;

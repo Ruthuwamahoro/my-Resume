@@ -105,11 +105,7 @@ body {
     .image-responsive {
       display: block;
     }
-    /* .about-image img {
-      width: 300px;
-      height: 400px;
-      box-shadow: 0 0 10px #4f5359;
-    } */
+    
     #about {
       display: block;
       justify-content: center;
@@ -143,55 +139,55 @@ body {
       height: 100%;
 
     }
-  #projects {
+    #projects {
     padding-left: 20px;
     padding-right: 30px;
     height: 0%;
-  }
+    }
     
-  #projects .row-pro1 {
+    #projects .row-pro1 {
       
       display: block;
       
       width: 100%;
-  }
+    }
 
-  #projects .column-pro{
+    #projects .column-pro{
     align-items: center;
     margin-top: 40px;
     width: 100%;
 
-  }
-  #projects .column-pro .card {
+    }
+    #projects .column-pro .card {
     display: block;
     flex-direction: column;
     align-items: center;
     width: 100%;
-  }
-  #projects.row-pro.section-head, p {
+    }
+    #projects.row-pro.section-head, p {
     margin: auto;
-  }
-  .dot{
+    }
+    .dot{
     display: none;
-  }
+    }
 
-  .page-container .row{
+    .page-container .row{
     display: block;
     width: 100%;
     margin: auto;
-  }
-  #me {
+    }
+    #me {
     display: block;
-  }
-  .new_container {
+    }
+    .new_container {
     display: block;
     margin: auto;
     padding: 30px;
-  }
-  .make-design {
+    }
+    .make-design {
     margin-bottom: 20px;
     width: 100%;
-  }
+    }
  
   
 }
@@ -224,6 +220,14 @@ body {
     position: relative;
     text-align: center;
     bottom: 30%;
+  }
+  .about-me {
+    position: relative;
+    top: 20%;
+  }
+  .about-image img{
+    position: relative;
+    top:10%
   }
   .new_container {
     display: block;

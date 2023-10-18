@@ -192,8 +192,10 @@ body {
     width: 100%;
     
   }
-  #resume {
+  .page-container .row{
     display: block;
+    width: 100%;
+    margin: auto;
   }
 
 }

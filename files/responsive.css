@@ -115,8 +115,7 @@ body {
   }
   .about-content {
     position: relative;
-    right: auto;
-    padding-right: 20%;
+    margin-right: 400px;
     
     
   }
@@ -215,6 +214,7 @@ body {
     color: blue;
   }
  
+ 
   
 }
 @media(max-width: 480px){
@@ -243,7 +243,7 @@ body {
   }
   .about-words{
     position: relative;
-    right: 30%
+    right: 70%
   }
  
   /* .about-words h1 {
@@ -285,6 +285,7 @@ body {
     right: 20px;
     color: blue;
   }
+   
   
 
 }

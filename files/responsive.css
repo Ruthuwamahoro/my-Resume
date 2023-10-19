@@ -115,7 +115,7 @@ body {
   }
   .about-content {
     position: relative;
-    margin-right: 400px;
+    margin-right: 700px;
     
     
   }
@@ -213,9 +213,7 @@ body {
     right: 20px;
     color: blue;
   }
-  .about-image {
-    display: none;
-  }
+  
  
  
   
@@ -286,7 +284,7 @@ body {
   }
   .about-content {
     position: relative;
-    margin-right: 400px;
+    margin-right: 200px;
     
     
   }

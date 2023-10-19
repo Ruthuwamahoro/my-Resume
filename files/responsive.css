@@ -120,6 +120,11 @@ body {
     
     
   }
+  .about-words {
+    position: relative;
+    left: 30%;
+    border: none;
+  }
   .my-fovourite-tech{
     display: block;
     justify-content: center;

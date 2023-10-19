@@ -18,11 +18,11 @@
     
 
   }
-  .about-words{
+  /* .about-words{
     border: none;
     left: 200px;
     margin-bottom: 20px;
-  }
+  } */
   .about-content {
       border: 1px dotted grey;
       display: flex;

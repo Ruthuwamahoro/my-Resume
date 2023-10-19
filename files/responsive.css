@@ -213,6 +213,9 @@ body {
     right: 20px;
     color: blue;
   }
+  .about-image {
+    display: none;
+  }
  
  
   
@@ -248,7 +251,7 @@ body {
  
   
   
-  .about-image img{
+  .about-image{
     display: none;
   }
   .new_container {
@@ -287,6 +290,7 @@ body {
     
     
   }
+  
    
   
 

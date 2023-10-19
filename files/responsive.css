@@ -241,6 +241,10 @@ body {
   .counter {
     padding-right: 205;
   }
+  .about-words{
+    position: relative;
+    right: 30%
+  }
  
   /* .about-words h1 {
     position: relative;

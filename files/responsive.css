@@ -242,13 +242,6 @@ body {
   .counter {
     padding-right: 205;
   }
-  .about-words{
-    position: relative;
-    right: 50%
-  }
- 
-  
-  
   .about-image{
     display: none;
   }
@@ -271,9 +264,7 @@ body {
     width: 100%;
     margin-top: 20px;
     left: 20%
-
-
-  }
+}
   .my-fovourite-tech h1 {
     display: block;
     position: relative;
@@ -282,11 +273,8 @@ body {
     right: 20px;
     color: blue;
   }
-  .about-content {
-    position: relative;
-    margin-right: 250px;
-    
-    
+  #about {
+    display: none;
   }
   
    

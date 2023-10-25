@@ -44,6 +44,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
       <div class="menu">
         <div class="menu-button">
           <a href="#"><i class="fa-solid fa-bars"></i></a>
@@ -560,13 +561,13 @@
               alt="projects-image"
             />
             <div class="card-body">
-              <h3 class="card-title">Mobile-money Banking system</h3>
+              <h3 class="card-title">Advice-generator-app</h3>
               <h5 class="card-sub-title">About-Project</h5>
               <p class="card-info">
-                This projects is designed to store information related to money
-                and track balance.It uses python- with database.
+                It generates a random advice.This app is using third-part api
+                "advice slip api"
               </p>
-              <button class="card-btn">Live Demo</button>
+              <button class="card-btn" id="advice">Live Demo</button>
             </div>
           </div>
         </div>
@@ -650,6 +651,7 @@
             <span class="circle two"></span>
 
             <form
+              onsubmit="sendEmail(); reset(); return false;"
               action="contact.php"
               autocomplete="off"
               id="contactForm"

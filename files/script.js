@@ -6,3 +6,4 @@ document.addEventListener('DOMContentLoaded', function () {
         navBar.classList.toggle('open');
     });
 });
+

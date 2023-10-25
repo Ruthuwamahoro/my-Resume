@@ -227,7 +227,12 @@ body {
     align-items: center;
     overflow: hidden;
   }
-  
+  #icon {
+    width: 30px;
+    cursor: pointer;
+    
+  }
+ 
   @keyframes moveUpDown {
     0% {
         transform: translateY(0);

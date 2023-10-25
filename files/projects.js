@@ -10,4 +10,7 @@ document.getElementById("counterm").onclick = function() {
 document.getElementById("calculator").onclick = function() {
     window.location.href = "project4/index4.html";
 };
+document.getElementById("advice").onclick = function() {
+    window.location.href = "https://ruthuwamahoro.github.io/advice-generator-app/";
+};
 
